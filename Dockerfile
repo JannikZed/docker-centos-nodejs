@@ -1,7 +1,7 @@
 # Use the base CentOS image.  If systemd is required in the future, change to 'creativeux/centos-base-systemd'
 FROM centos:7
 
-MAINTAINER Aaron Stone <aaronastone@gmail.com>
+MAINTAINER Jannik Zinkl <jannik.zinkl@trieb.work>
 
 # Install the EPEL repository
 RUN yum -y install \
