@@ -23,8 +23,8 @@ RUN yum -y install \
   nodejs \
   npm && \
   npm install -g n && \
-  n 0.12.0 && \
-  npm install -g npm@2.9.0
+  n 6 && \
+  npm install -g npm
 
 # Install ruby
 RUN yum -y install ruby \
