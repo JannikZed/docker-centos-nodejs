@@ -1,5 +1,5 @@
 # Use the base CentOS image.  If systemd is required in the future, change to 'creativeux/centos-base-systemd'
-FROM centos:7
+FROM centos/systemd
 
 MAINTAINER Jannik Zinkl <jannik.zinkl@trieb.work>
 
