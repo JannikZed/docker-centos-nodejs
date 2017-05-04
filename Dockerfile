@@ -16,7 +16,9 @@ RUN yum -y install \
 RUN yum -y install \
   make \
   gcc \
-  git
+  git \
+  fontconfig \
+  freetype
 
 # Install node & npm and upgrade to desired versions.
 RUN yum -y install \
