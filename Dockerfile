@@ -18,7 +18,10 @@ RUN yum -y install \
   gcc \
   git \
   fontconfig \
-  freetype
+  freetype 
+  
+RUN curl -fsSL https://get.docker.com/ | sh \
+  && systemctl start docker
 
 # Install node & npm and upgrade to desired versions.
 RUN yum -y install \
